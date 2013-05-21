@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tr.edu.fatih.amiralbatti"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="tr.edu.fatih.amiralbatti.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="tr.edu.fatih.amiralbatti.NewGameActivity"
+            android:label="@string/title_activity_new_game" >
+        </activity>
+        <activity
+            android:name="tr.edu.fatih.amiralbatti.MyBoardActivity"
+            android:label="@string/title_activity_my_board" >
+        </activity>
+        <activity
+            android:name="tr.edu.fatih.amiralbatti.WinnerActivity"
+            android:label="@string/title_activity_winner" >
+        </activity>
+    </application>
+
+</manifest>
